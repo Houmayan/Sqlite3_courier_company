@@ -67,7 +67,7 @@ def update_db():
       print("Enter 4 to change Payable Amount")
       print("Enter 5 to change Phone Number")
       print(" ")
-      
+
       a = int(input("Enter 1/2/3/4/5 to change desire option!:"))
 
 
@@ -121,6 +121,7 @@ def sum_amount():
                   sum1 = sum1 + j
 
       print("Total amount = ", sum1, " Taka ")
+      print(" ")
       Menu()
 
 def Menu():
